@@ -9,3 +9,16 @@ function sum(numbers) {
     return numbers.reduce((a, b) => a + b, 0);
   }
 
+/*
+This function takes an array arr as an argument and returns the sum of the numbers in the array.
+It does this using the reduce method, which applies a function to each element of the array in turn,
+accumulating a single result. In this case, the function takes two arguments: sum and num. 
+
+sum is the current accumulated value, and num is the current element being processed. 
+
+The function adds num to sum and returns the result. 
+
+The second argument to reduce is the 
+initial value of sum, which in this case is 0. If the array is empty, reduce returns the 
+initial value (0) without calling the function.
+*/
